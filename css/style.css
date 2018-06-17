@@ -1,0 +1,27 @@
+
+
+#background {
+    background-image: url("elastoplast.png");
+
+}
+
+#titleCard {
+    background-color: coral;
+    
+    padding: 10px;
+}
+
+#instructions {
+    background-color: bisque;
+    color: green;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn {
+    border-width: 3px;
+    border-color: aliceblue;
+}
+
