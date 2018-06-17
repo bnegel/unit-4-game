@@ -1,10 +1,5 @@
 
 
-#background {
-    background-image: url("elastoplast.png");
-
-}
-
 #titleCard {
     background-color: coral;
     
@@ -14,14 +9,43 @@
 #instructions {
     background-color: bisque;
     color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#targetNumBox {
+    background-color: green;
+    padding-bottom: 80px;
+    margin-bottom: 15px
+}
+
+#winLossBox {
+    background-color: aqua;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+}
+
+#scoreBox {
+    background-color: darkgreen;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .btn {
     border-width: 3px;
     border-color: aliceblue;
+}
+
+#adderBox {
+    background-color: darkgreen;
+    color: white;
+    padding-bottom: 80px;
 }
 
