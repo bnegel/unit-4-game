@@ -20,20 +20,22 @@ $(document).ready(function() {
         var purpleValue = Math.floor(Math.random()*11+1);
             console.log(aquaValue, " ", pinkValue, " ", greenValue, " ", purpleValue);
 
-            $("#losses").text(losses);
-            $("#wins").text(wins);
+            $("#losses").text("Losses: " + losses);
+            $("#wins").text("Wins: " + wins);
     
 
         function win() {
+            alert("You won, smartypants.")
             wins ++;
-            $("#wins").text(wins);
+            $("#wins").text("Wins: " + wins);
             console.log("you won");
             resetGame();
         }
 
         function lose() {
+            alert("Dang. Nice try.")
             losses ++;
-            $("#losses").text(losses);
+            $("#losses").text("Losses: " + losses);
             console.log("you lost");
             resetGame();
         }
@@ -89,9 +91,10 @@ $(document).ready(function() {
 
 function resetGame () {
     numAccrue = 0;    
+    $("#adderBox").text(numAccrue); 
     targetNum = Math.floor(Math.random()*101+19);
         $("#targetNum").text(targetNum);
-
+            console.log(targetNum);
         aquaValue = Math.floor(Math.random()*11+1);
         pinkValue= Math.floor(Math.random()*11+1);
         greenValue = Math.floor(Math.random()*11+1);

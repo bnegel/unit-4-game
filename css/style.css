@@ -11,22 +11,22 @@
     color: green;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#targetNumBox {
-    background-color: green;
+#targetNum {
+    background-color: lightseagreen;
     padding-bottom: 80px;
     margin-bottom: 15px
 }
 
 #winLossBox {
     background-color: aqua;
-    margin-left: 15px;
+    margin-left: 5px;
     margin-bottom: 15px;
 
 }
@@ -34,8 +34,8 @@
 #scoreBox {
     background-color: darkgreen;
     color: white;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .btn {
