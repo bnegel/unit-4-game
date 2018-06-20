@@ -2,7 +2,8 @@
 
 #titleCard {
     background-color: coral;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellowgreen;
     padding: 10px;
 }
 
@@ -21,7 +22,9 @@
 #targetNum {
     background-color: lightseagreen;
     padding-bottom: 80px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    font-size: larger;
+    color: aliceblue;
 }
 
 #winLossBox {
@@ -47,5 +50,6 @@
     background-color: darkgreen;
     color: white;
     padding-bottom: 80px;
+    padding-left: 10px;
 }
 
